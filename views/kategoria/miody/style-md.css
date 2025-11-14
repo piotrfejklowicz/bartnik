@@ -1,0 +1,26 @@
+.page-product-category {
+	section.banner,
+	.sidebar {
+		display: none;
+	}
+	a.banner-half {
+		flex-direction: row;
+	}
+	.banner-half-text {
+		text-align: left;
+	}
+
+	main.main-content {
+		padding: 0 20px;
+		width: 100%;
+	}
+	.product-listing__toolbar {
+		display: flex	;
+		justify-content: start;
+		align-items: start;
+		margin-bottom: 30px;
+		flex-direction: column;
+		gap: 18px;
+	}
+
+}

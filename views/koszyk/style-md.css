@@ -1,0 +1,19 @@
+
+/* koszyk */
+.page-cart {
+	.page-header {
+		.page-wrapper {
+			margin: 40px 0;
+			padding: 0;
+		}
+	}
+	.cart-container {
+		flex-direction: column;
+	}
+	.cart-items {
+		margin-bottom: 0;
+	}
+	.cart-container {
+		gap: 0;
+	}
+}

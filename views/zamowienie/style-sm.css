@@ -1,0 +1,34 @@
+.page-checkout {
+	.checkout-container {
+		zoom: 1.1;
+	}
+	.form-row {
+		gap: 3px;
+		margin-bottom: 8px;
+		flex-direction: column;
+	}
+	.auth-options {
+		font-size: 13px;
+	}
+	.checkout-step__content {
+		padding: 20px;
+	}
+	.form-label {
+		width: 100%;
+		font-size: 11px;
+		padding-top: 6px;
+	}
+	.shipping-options, .payment-options {
+		gap: 10px;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.shipping-option, .payment-option {
+		flex-wrap: wrap;
+		span.shipping-option__price {
+			width: 100%;
+			text-align: right;
+		}
+	}
+
+}

@@ -1,0 +1,57 @@
+/*
+  Ten plik zawiera wszystkie zmienne kolorów i czcionek.
+  Domyślnie ustawiony jest motyw jasny.
+  Atrybut `data-theme="dark"` na elemencie <body> przełączy na motyw ciemny.
+*/
+
+:root {
+  /* Paleta kolorów */
+  --brand-yellow: #fecc00;
+  --brand-dark-yellow: #bf9900;
+  --brand-light-yellow: #fff6d1;
+  --brand-dark-brown: #271b14;
+  --brand-medium-brown: #3c291e;
+  --brand-light-brown: #836d47;
+  --brand-red: #fb0018;
+  --brand-green: #388d50;
+  --brand-pink: #e53d55;
+
+  --grey-dark: #4a4849;
+  --grey-medium: #999598;
+  --grey-light: #d6d5d6;
+  --grey-extra-light: #ededed;
+
+  --white: #ffffff;
+  --black: #111111;
+
+  /* Zmienne motywu (domyślnie jasny) */
+  --background-color: var(--white);
+  --text-color-primary: var(--black);
+  --text-color-secondary: var(--grey-dark);
+  --border-color: var(--grey-extra-light);
+  --section-header-border: var(--grey-extra-light);
+  --product-card-border: transparent;
+  --category-link-bg: transparent;
+  --category-link-border: var(--brand-yellow);
+  --category-link-bg-hover: var(--brand-light-yellow);
+}
+
+[data-theme="dark"] {
+  --background-color: var(--black);
+  --text-color-primary: var(--white);
+  --text-color-secondary: var(--grey-extra-light);
+  --border-color: var(--brand-medium-brown);
+  --section-header-border: var(--brand-medium-brown);
+  --product-card-border: var(--brand-medium-brown);
+  --category-link-bg: transparent;
+  --category-link-border: var(--brand-light-brown);
+  --category-link-bg-hover: var(--brand-medium-brown);
+}
+
+/* Czcionki */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+
+/*
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
+*/

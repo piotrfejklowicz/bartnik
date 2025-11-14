@@ -1,0 +1,16 @@
+.page-cart {
+	.cart-item {
+		flex-wrap: wrap;
+		zoom: .95;
+		gap: 10px 20px;
+	}
+	.cart-item__actions {
+		width: 100%;
+		justify-content: end;
+	}
+	.cart-item__details {
+		zoom: 1.2;
+	}
+
+
+}

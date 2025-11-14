@@ -1,0 +1,82 @@
+.fade{visibility:hidden;animation-duration:.45s;animation-fill-mode:none;animation-delay:0s;animation-play-state:paused}
+#d .fade.anim{visibility:visible;animation-play-state:running}
+.nofade{visibility:visible!important;animation-play-state:running}
+.fl-builder-edit .fade{visibility:visible!important;animation-play-state:running}
+#body .short{animation-duration:.21s;animation-delay:0s}
+#body .tada{animation-duration:1s;visibility:visible!important}
+:root{--anim-trs:134px;--anim-trsn:-134px;--anim-scale:0.9}
+@media screen and (min-width:66rem){
+	.long{--anim-trs:234px;--anim-trsn:-234px;animation-duration:.61s}
+}
+@media screen and (min-width:44.01rem) and (max-width:66rem){
+	.fade{animation-duration:.42s}
+	:root{--anim-trs:122px;--anim-trsn:-122px;--anim-scale:0.87}
+}
+@media screen and (max-width:44rem){
+	.fade{animation-duration:.41s}
+	:root{--anim-trs:108px;--anim-trsn:-108px;--anim-scale:0.83}
+}
+@media screen and (max-width:33rem){
+	.fade{animation-duration:.4s}
+	.fl-row:first-child .fl-module:first-child .fade{animation-duration:.27s}
+	.fl-row .fl-module:not(:first-child) .fade{animation-duration:0s!important;animation-delay:0s!important;animation-name:none!important;visibility:visible!important;animation-play-state:running!important}
+	:root{--anim-trs:25px;--anim-trsn:-25px;--anim-scale:0.93}
+}
+@keyframes fi{
+	0%{opacity:0}
+	100%{opacity:1}
+}
+.i{animation-name:fi}
+@keyframes fi3d{
+	0%{opacity:.88;transform:scale(.95) translateY(2%)}
+	100%{opacity:1;transform:scale(1) translateY(0)}
+}
+.in3d{animation-name:fi3d;visibility:visible!important}
+@keyframes fl{
+	0%{opacity:0;transform:translateX(var(--anim-trsn))}
+	100%{opacity:1;transform:translateX(0)}
+}
+.l{animation-name:fl}
+@keyframes fr{
+	0%{opacity:0;transform:translateX(var(--anim-trs))}
+	100%{opacity:1;transform:translateX(0)}
+}
+.r{animation-name:fr}
+@keyframes fls{
+	0%{opacity:0;transform:translateX(var(--anim-trsn)) scale(var(--anim-scale))}
+	100%{opacity:1;transform:translateX(0) scale(1)}
+}
+.ls{animation-name:fls;will-change:transform}
+@keyframes frs{
+	0%{opacity:0;transform:translateX(var(--anim-trs)) scale(var(--anim-scale))}
+	100%{opacity:1;transform:translateX(0) scale(1)}
+}
+.rs{animation-name:frs;will-change:transform}
+@keyframes fu{
+	0%{opacity:0;transform:translateY(var(--anim-trs))}
+	100%{opacity:1;transform:translateY(0)}
+}
+.u{animation-name:fu}
+@keyframes fush{
+	0%{opacity:0;transform:translateY(10.5rem)}
+	100%{opacity:1;transform:translateY(0)}
+}
+.fush{animation-name:fush}
+@keyframes fd{
+	0%{opacity:0;transform:translateY(-10rem)}
+	100%{opacity:1;transform:translateY(0)}
+}
+.d{animation-name:fd}
+@keyframes fo{
+	0%{opacity:1}
+	100%{opacity:0}
+}
+.o{animation-name:fo}
+@-webkit-keyframes fl-lightbox-zoom{
+	0%{opacity:.8;transform:scale(.9)}
+	100%{opacity:1;transform:scale(1)}
+}
+@keyframes fl-lightbox-zoom{
+	0%{opacity:.8;transform:scale(.9)}
+	100%{opacity:1;transform:scale(1)}
+}

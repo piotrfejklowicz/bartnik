@@ -1,0 +1,256 @@
+.newsletter-popup {
+	position: fixed;
+	inset: 0;
+	z-index: 999;
+	background: rgb(0 0 0 / 60%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', 'Arial', sans-serif;
+}
+
+.newsletter-popup__window {
+	position: relative;
+	width: 860px;
+	max-width: 100%;
+	height: auto;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+	margin: auto;
+	gap: 20px;
+}
+
+.newsletter-popup__image-wrapper {
+	background: #fecc00;
+	width: 370px;
+	height: 410px;
+	overflow: hidden;
+}
+
+.newsletter-popup__image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.newsletter-popup__form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 470px;
+	max-width: 100%;
+	height: 100%;
+	padding: 40px 40px 30px;
+	margin: auto;
+	gap: 25px;
+}
+
+.newsletter-popup__content {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	width: 100%;
+}
+
+.newsletter-popup__text-group {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: center;
+}
+
+.newsletter-popup__title {
+	color: #111111;
+	font-family: "ChakraPetch", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.newsletter-popup__description {
+	color: #4a4849;
+	font-family: "Poppins", sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.8px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.newsletter-popup__inputs-group {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.newsletter-popup__subscribe-group {
+	border-radius: 5px;
+	border: 1px solid #d6d5d6;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.newsletter-popup__subscribe-group label {
+	width: 100%;
+	flex-grow: 2;
+}
+
+.newsletter-popup__subscribe-group input {
+	padding: 14px;
+	margin: -5px;
+	width: 100%;
+	flex-grow: 2;
+}
+
+.newsletter-popup__email-label {
+	color: #111111;
+	font-family: "Poppins", sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.8px;
+	font-weight: 500;
+}
+
+.newsletter-popup__submit-button {
+	background: #d6d5d6;
+	border-radius: 5px;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 35px;
+	border: none;
+	cursor: pointer;
+}
+
+.newsletter-popup__submit-text {
+	color: #111111;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.newsletter-popup__coupon-group {
+	border-radius: 4px;
+	border: 1px dashed #d6d5d6;
+	padding: 15px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	box-sizing: border-box;
+	position: relative;
+	cursor: pointer;
+}
+
+.newsletter-popup__coupon-label {
+	color: #999598;
+	font-family: "Poppins", sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.8px;
+	font-weight: 500;
+	span.copy-coupon {
+		color: #5e5d5e;
+	}
+}
+
+.newsletter-popup__coupon-icon {
+	width: 27.77px;
+	height: 20px;
+	position: absolute;
+	left: 18px;
+	bottom: -9px;
+}
+
+.newsletter-popup__options {
+	display: flex;
+	margin-top: 20px;
+	text-align: right;
+	justify-content: end;
+}
+
+.newsletter-popup__option-label {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	cursor: pointer;
+	color: #111111;
+	font-family: "Poppins", sans-serif;
+	font-size: 10px;
+	letter-spacing: 0.8px;
+}
+
+.newsletter-popup__option-checkbox {
+	display: none; /* Hide original checkbox */
+}
+
+.newsletter-popup__custom-checkbox {
+	width: 13px;
+	height: 13px;
+	border: 0.8px solid #999598;
+	display: inline-block;
+	position: relative;
+}
+
+.newsletter-popup__option-checkbox:checked + .newsletter-popup__custom-checkbox::after {
+	content: '✔';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 10px;
+	color: #111111;
+}
+
+.newsletter-popup__close-btn {
+	position: absolute;
+	right: -5px;
+	top: -5px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 5px;
+}
+
+
+@media screen and (max-width: 44rem) {
+	.newsletter-popup__window {
+		flex-direction: column;
+		gap: 10px;
+	}
+	.newsletter-popup__image-wrapper {
+		background: #fecc00;
+		width: 100%;
+		height: 200px;
+		overflow: hidden;
+	}
+	.newsletter-popup__form {
+		height: 100%;
+		padding: 10px 10px 30px;
+		margin: auto;
+		gap: 5px;
+	}
+	.newsletter-popup__content {
+		zoom: .88;
+	}
+	.newsletter-popup__inputs-group {
+		gap: 20px;
+	}
+	.newsletter-popup__option-label {
+		padding: 0 5px;
+	}
+
+}
+
+@media screen and (max-width: 24rem) {
+	.newsletter-popup__content {
+		zoom: 1;
+	}
+
+}

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css">
+  
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="section">
+    <div class="s-01">
+      <div class="container">
+        <div class="text">
+          <div class="nazwa-przyk-adowego-produktu">
+            Nazwa przykładowego produktu
+          </div>
+          <div
+            class="ten-upominek-na-pewno-sprawi-wiele-rado-ci-wybierz-zawieszk-a-my-zadbamy-o-reszt"
+          >
+            Ten upominek na pewno sprawi wiele radości. Wybierz zawieszkę, a my
+            zadbamy o resztę!
+          </div>
+          <div class="all-labels">
+            <div class="label">
+              <div class="dost-pny">dostępny</div>
+            </div>
+            <div class="label2">
+              <div class="kod-produktu-75622">kod produktu:  75622</div>
+            </div>
+          </div>
+        </div>
+        <div class="all-option">
+          <div class="select">
+            <div class="specyfikacja">Specyfikacja:</div>
+            <div class="zwyk-y-tekst">zwykły tekst</div>
+          </div>
+          <div class="select">
+            <div class="smak">Smak:</div>
+            <div class="lang">
+              <div class="mi-d-lipowy">miód lipowy</div>
+              <img class="arrow-down" src="arrow-down0.svg" />
+            </div>
+          </div>
+          <div class="option">
+            <div class="kolor-opakowania">Kolor opakowania:</div>
+            <div class="list">
+              <div class="item-label-blue"></div>
+              <div class="item-label-black"></div>
+            </div>
+          </div>
+          <div class="option">
+            <div class="wersja">Wersja:</div>
+            <div class="list2">
+              <div class="item-label">
+                <div class="dla-mamy">dla Mamy</div>
+              </div>
+              <div class="item-label2">
+                <div class="dla-taty">dla Taty</div>
+              </div>
+            </div>
+          </div>
+          <div class="option">
+            <div class="gramatura-miodu">Gramatura miodu:</div>
+            <div class="list2">
+              <div class="item-label">
+                <div class="_40-g">40g</div>
+              </div>
+              <div class="item-label2">
+                <div class="_1000-g">1000g</div>
+              </div>
+              <div class="item-label2">
+                <div class="_1200-g">1200g</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="price">
+          <div class="price2">
+            <div class="price3">
+              <div class="_50-z">50 zł</div>
+              <div class="_32-z">32 zł</div>
+            </div>
+            <div class="frame-1751">
+              <div class="label3">
+                <div class="_10-rabatu">10% rabatu</div>
+              </div>
+            </div>
+          </div>
+          <div class="najni-sza-cena-przed-rabatem-z-ostatnich-30-dni-50-z">
+            Najniższa cena przed rabatem z ostatnich 30 dni: 50zł
+          </div>
+        </div>
+        <div class="amount-btns">
+          <div class="ilo">Ilość:</div>
+          <div class="buttons">
+            <div class="amount">
+              <div class="input">
+                <img class="bg" src="bg0.svg" />
+                <div class="_10">10</div>
+                <img class="bg2" src="bg1.svg" />
+              </div>
+              <div class="remove"></div>
+              <img class="add" src="add0.svg" />
+            </div>
+            <div class="button">
+              <img class="shopping-cart-359686" src="shopping-cart-3596860.svg" />
+              <div class="dodaj-do-koszyka">Dodaj do koszyka</div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-1750">
+          <div class="udost-pnij">udostępnij:</div>
+          <div class="list3">
+            <div class="item">
+              <div class="image-fill">
+                <div class="image">
+                  <img class="group" src="group0.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="item2">
+              <div class="image-fill">
+                <div class="image">
+                  <img class="group2" src="group1.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="item3">
+              <div class="image-fill">
+                <div class="image">
+                  <img class="group3" src="group2.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="all-points">
+          <div class="point">
+            <img
+              class="shopping-online-6540353"
+              src="shopping-online-65403530.svg"
+            />
+            <div class="atwa-polityka-zwrot-w-bez-zadawania-pyta">
+              Łatwa polityka zwrotów bez zadawania pytań
+            </div>
+          </div>
+          <div class="point2">
+            <img
+              class="delivery-truck-15173616"
+              src="delivery-truck-151736160.svg"
+            />
+            <div class="zam-w-przed-godzin-18-00-aby-otrzyma-ekspresow-dostaw">
+              Zamów przed godziną 18:00, aby otrzymać ekspresową dostawę
+            </div>
+          </div>
+          <div class="point3">
+            <img
+              class="quality-assurance-9285723"
+              src="quality-assurance-92857230.svg"
+            />
+            <div
+              class="dostarczamy-najlepszej-jako-ci-r-cznie-wybierane-produkty"
+            >
+              Dostarczamy najlepszej jakości, ręcznie wybierane produkty
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section2">
+        <div class="border">
+          <div
+            class="image2"
+            style="
+              background: url(image3.png) center;
+              background-size: cover;
+              background-repeat: no-repeat;
+            "
+          >
+            <img class="image-84" src="image-840.png" />
+            <img class="img-0112-1" src="img-0112-10.png" />
+          </div>
+          <img class="btn" src="btn0.svg" />
+          <img class="btn2" src="btn1.svg" />
+          <div class="background">
+            <img class="icon" src="icon0.svg" />
+          </div>
+          <div class="horizontal-border">
+            <div class="container2">
+              <div
+                class="image3"
+                style="
+                  background: url(image4.png) center;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                "
+              >
+                <img class="img-0035-1" src="img-0035-10.png" />
+              </div>
+              <div
+                class="image3"
+                style="
+                  background: url(image5.png) center;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                "
+              >
+                <img class="img-0035-1" src="img-0035-11.png" />
+              </div>
+              <div
+                class="image3"
+                style="
+                  background: url(image6.png) center;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                "
+              >
+                <img class="img-0035-1" src="img-0035-12.png" />
+              </div>
+              <div
+                class="image4"
+                style="
+                  background: url(image7.png) center;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                "
+              >
+                <img class="img-0035-12" src="img-0035-13.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="label4">
+          <div class="label5">
+            <div class="_102">-10%</div>
+          </div>
+          <div class="label6">
+            <div class="new">New</div>
+          </div>
+        </div>
+      </div>
+      <div class="breadcumbs">
+        <div class="home">Home</div>
+        <div class="div">/</div>
+        <div class="dla-mamy-i-taty">Dla Mamy i Taty</div>
+        <div class="div">/</div>
+        <div class="upominek-dla-mamy-i-taty">*Upominek dla Mamy i Taty</div>
+      </div>
+    </div>
+    <div class="descp">
+      <div class="tablist">
+        <div class="opis-produktu">Opis produktu</div>
+        <div class="szczeg-owy-opis">Szczegółowy opis</div>
+      </div>
+      <div class="horizontal-border2">
+        <div class="tabpanel">
+          <div class="paragraph">
+            <div
+              class="bo-za-trosk-czu-o-i-obecno-nie-spos-b-wystarczaj-co-podzi-kowa"
+            >
+              Bo za troskę, czułość i obecność nie sposób wystarczająco
+              podziękować…
+            </div>
+            <div class="descp2">
+              <div
+                class="ten-zestaw-to-co-wi-cej-ni-s-odki-upominek-to-gest-wdzi-czno-ci-dla-mamy-kt-ra-zawsze-by-a-obok-dla-taty-kt-ry-wspiera-w-ka-dej-chwili-wybierz-spo-r-d-21-rodzaj-w-cud-miod-w-naturalnych-kompozycji-miodu-z-liofilizowanymi-owocami-i-aromatycznymi-przyprawami-naturalny-delikatny-mi-d-z-dodatkami-liofilizowanych-owoc-w-pi-kne-nie-tylko-w-smaku-ale-i-w-formie"
+              >
+                Ten zestaw* to coś więcej niż słodki upominek – to gest
+                wdzięczności. Dla Mamy, która zawsze była obok. Dla Taty, który
+                wspierał w każdej chwili. Wybierz spośród 21 rodzajów cud
+                miodów – naturalnych kompozycji miodu z liofilizowanymi owocami
+                i aromatycznymi przyprawami. Naturalny, delikatny miód z dodatkami
+                liofilizowanych owoców – piękne nie tylko w smaku, ale i w formie.
+              </div>
+              <div
+                class="a-na-koniec-przewi-zali-my-r-ow-lub-niebiesk-wst-k-do-wyboru-z-zawieszkami-dobranymi-kolorystycznie-bo-detale-maj-znaczenie-a-prezent-ma-cieszy-ju-od-pierwszego-spojrzenia"
+              >
+                <span>
+                  <span
+                    class="a-na-koniec-przewi-zali-my-r-ow-lub-niebiesk-wst-k-do-wyboru-z-zawieszkami-dobranymi-kolorystycznie-bo-detale-maj-znaczenie-a-prezent-ma-cieszy-ju-od-pierwszego-spojrzenia-span"
+                  >
+                    A na koniec przewiązaliśmy 
+                  </span>
+                  <span
+                    class="a-na-koniec-przewi-zali-my-r-ow-lub-niebiesk-wst-k-do-wyboru-z-zawieszkami-dobranymi-kolorystycznie-bo-detale-maj-znaczenie-a-prezent-ma-cieszy-ju-od-pierwszego-spojrzenia-span2"
+                  >
+                    różową lub niebieską wstążką
+                  </span>
+                  <span
+                    class="a-na-koniec-przewi-zali-my-r-ow-lub-niebiesk-wst-k-do-wyboru-z-zawieszkami-dobranymi-kolorystycznie-bo-detale-maj-znaczenie-a-prezent-ma-cieszy-ju-od-pierwszego-spojrzenia-span"
+                  >
+                     do wyboru – z zawieszkami dobranymi kolorystycznie - bo
+                    detale mają znaczenie, a prezent ma cieszyć już od pierwszego
+                    spojrzenia.
+                  </span>
+                </span>
+              </div>
+              <div
+                class="dla-mamy-za-czu-o-trosk-i-bezwarunkow-obecno-dla-taty-za-si-spok-j-i-niezawodne-wsparcie-zapakowany-w-eleganckie-pude-ko-z-tektury-przewi-zane-wst-kami-stanie-si-symbolicznym-dzi-kuj-za-wszystko-co-niewypowiedziane"
+              >
+                <span>
+                  <span
+                    class="dla-mamy-za-czu-o-trosk-i-bezwarunkow-obecno-dla-taty-za-si-spok-j-i-niezawodne-wsparcie-zapakowany-w-eleganckie-pude-ko-z-tektury-przewi-zane-wst-kami-stanie-si-symbolicznym-dzi-kuj-za-wszystko-co-niewypowiedziane-span"
+                  >
+                    Dla Mamy
+                  </span>
+                  <span
+                    class="dla-mamy-za-czu-o-trosk-i-bezwarunkow-obecno-dla-taty-za-si-spok-j-i-niezawodne-wsparcie-zapakowany-w-eleganckie-pude-ko-z-tektury-przewi-zane-wst-kami-stanie-si-symbolicznym-dzi-kuj-za-wszystko-co-niewypowiedziane-span2"
+                  >
+                     – za czułość, troskę i bezwarunkową obecność
+                    <br />
+                  </span>
+                  <span
+                    class="dla-mamy-za-czu-o-trosk-i-bezwarunkow-obecno-dla-taty-za-si-spok-j-i-niezawodne-wsparcie-zapakowany-w-eleganckie-pude-ko-z-tektury-przewi-zane-wst-kami-stanie-si-symbolicznym-dzi-kuj-za-wszystko-co-niewypowiedziane-span"
+                  >
+                    Dla Taty
+                  </span>
+                  <span
+                    class="dla-mamy-za-czu-o-trosk-i-bezwarunkow-obecno-dla-taty-za-si-spok-j-i-niezawodne-wsparcie-zapakowany-w-eleganckie-pude-ko-z-tektury-przewi-zane-wst-kami-stanie-si-symbolicznym-dzi-kuj-za-wszystko-co-niewypowiedziane-span2"
+                  >
+                     – za siłę, spokój i niezawodne wsparcie
+                    <br />
+                    Zapakowany w eleganckie pudełko z tektury, przewiązane 
+                  </span>
+                  <span
+                    class="dla-mamy-za-czu-o-trosk-i-bezwarunkow-obecno-dla-taty-za-si-spok-j-i-niezawodne-wsparcie-zapakowany-w-eleganckie-pude-ko-z-tektury-przewi-zane-wst-kami-stanie-si-symbolicznym-dzi-kuj-za-wszystko-co-niewypowiedziane-span"
+                  >
+                    wstążkami
+                  </span>
+                  <span
+                    class="dla-mamy-za-czu-o-trosk-i-bezwarunkow-obecno-dla-taty-za-si-spok-j-i-niezawodne-wsparcie-zapakowany-w-eleganckie-pude-ko-z-tektury-przewi-zane-wst-kami-stanie-si-symbolicznym-dzi-kuj-za-wszystko-co-niewypowiedziane-span2"
+                  >
+                    , stanie się symbolicznym „dziękuję” – za wszystko,
+                    co niewypowiedziane.
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="list4">
+            <div class="wybierz-spo-r-d">Wybierz spośród:</div>
+            <div class="ul">
+              <div class="li">
+                <img class="dot" src="dot0.svg" />
+                <div class="cud-mi-d-hibiskus-z-pomara-cz-250-g">
+                  cud miód - hibiskus z pomarańczą 250g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot2" src="dot1.svg" />
+                <div class="cud-mi-d-szarlotka-jab-ko-z-cynamonem-250-g">
+                  cud miód - szarlotka jabłko z cynamonem 250g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot3" src="dot2.svg" />
+                <div class="cud-mi-d-dynia-imbir-250-g">
+                  cud miód - dynia&amp;imbir 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot4" src="dot3.svg" />
+                <div class="cud-mi-d-urawina-250-g">
+                  cud miód - żurawina 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot5" src="dot4.svg" />
+                <div class="cud-mi-d-bor-wka-250-g">cud miód - borówka 250 g</div>
+              </div>
+              <div class="li">
+                <img class="dot6" src="dot5.svg" />
+                <div class="cud-mi-d-pomara-cza-250-g">
+                  cud miód - pomarańcza 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot7" src="dot6.svg" />
+                <div class="cud-mi-d-papaja-marakuja-250-g">
+                  cud miód - papaja&amp;marakuja 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot8" src="dot7.svg" />
+                <div class="ud-mi-d-jagoda-250-g">ud miód - jagoda 250 g</div>
+              </div>
+              <div class="li">
+                <img class="dot9" src="dot8.svg" />
+                <div class="cud-mi-d-czarna-porzeczka-250-g">
+                  cud miód - czarna porzeczka 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot10" src="dot9.svg" />
+                <div class="cud-mi-d-imbir-cytryna-250-g">
+                  cud miód - imbir&amp;cytryna 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot11" src="dot10.svg" />
+                <div class="cud-mi-d-malina-250-g">cud miód - malina 250 g</div>
+              </div>
+              <div class="li">
+                <img class="dot12" src="dot11.svg" />
+                <div class="cud-mi-d-mango-250-g">cud miód - mango 250 g</div>
+              </div>
+              <div class="li">
+                <img class="dot13" src="dot12.svg" />
+                <div class="cud-mi-d-ja-piernicz-mi-d-z-przypraw-piernikow-250-g">
+                  cud miód - ja pierniczę! - miód z przyprawą piernikową 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot14" src="dot13.svg" />
+                <div class="cud-mi-d-truskawka-250-g">
+                  cud miód - truskawka 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot15" src="dot14.svg" />
+                <div class="cud-mi-d-rokitnik-z-dzik-r-250-g">
+                  cud miód - rokitnik z dziką różą 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot16" src="dot15.svg" />
+                <div class="cud-mi-d-pigwowiec-z-dzik-r-250-g">
+                  cud miód - pigwowiec z dziką różą 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot17" src="dot16.svg" />
+                <div class="cud-mi-d-pomara-cz-z-go-dzikiem-250-g">
+                  cud miód - pomarańcz z goździkiem 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot18" src="dot17.svg" />
+                <div class="cud-mi-d-ananas-granat-250-g">
+                  cud miód - ananas &amp; granat 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot19" src="dot18.svg" />
+                <div class="cud-mi-d-brusznica-250-g">
+                  cud miód - brusznica 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot20" src="dot19.svg" />
+                <div class="cud-mi-d-jab-ko-i-mi-ta-250-g">
+                  cud miód - jabłko i mięta 250 g
+                </div>
+              </div>
+              <div class="li">
+                <img class="dot21" src="dot20.svg" />
+                <div class="cud-mi-d-pokrzywa-250-g">
+                  cud miód - pokrzywa 250 g
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container3">
+            <div class="mo-na-tu-da-zdjecie-b-d-wideo">
+              Można tu dać zdjecie bądź wideo
+            </div>
+            <div class="you-tube-video-player">
+              <img class="image5" src="image8.png" />
+              <img class="image-85" src="image-850.png" />
+              <div class="container4">
+                <div class="link">
+                  <div class="nazwa-filmiku-na-youtube">
+                    Nazwa filmiku na youtube
+                  </div>
+                </div>
+              </div>
+              <div class="button-menu-more">
+                <img class="svg" src="svg0.svg" />
+              </div>
+              <img class="container5" src="container4.svg" />
+              <img class="button-play-svg" src="button-play-svg0.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="komentarze">
+      <img class="icon2" src="icon1.svg" />
+      <div class="komentarze-3">Komentarze (3)</div>
+      <div class="border2">
+        <div class="container6">
+          <div class="_17-05-2025-16-15-przez-awokado-12">
+            17.05.2025, 16:15
+            <br />
+            przez: Awokado12
+          </div>
+          <img class="stars" src="stars0.svg" />
+        </div>
+        <div class="container7">
+          <div class="bardzo-dobry-produkt-i-szybka-wysy-ka">
+            Bardzo dobry produkt i szybka wysyłka
+          </div>
+          <div
+            class="magna-dui-sodales-cras-hendrerit-massa-netus-non-purus-neque-tristique-consectetur-ac-ut-eget-iaculis-in-orci-sed-etiam-turpis-quis-amet-hac-eget-laoreet-quisque-nisl-quam-ullamcorper-euismod-urna-fusce-egestas-arcu-eros-lacus-arcu-sed-egestas-imperdiet-varius-amet-ut-enim-scelerisque-nec-faucibus-ipsum-rutrum-volutpat-enim-amet-nam-neque-mi-egestas-bibendum-adipiscing-id-imperdiet-quam-aliquet-odio-amet"
+          >
+            Magna dui sodales cras hendrerit massa netus non purus neque.
+            Tristique consectetur ac ut eget. Iaculis in orci sed etiam turpis
+            quis amet. Hac eget laoreet quisque nisl. Quam ullamcorper euismod
+            urna fusce egestas arcu. Eros lacus arcu sed egestas imperdiet varius.
+            Amet ut enim scelerisque nec faucibus ipsum. Rutrum volutpat enim amet
+            nam neque mi egestas bibendum. Adipiscing id imperdiet quam aliquet
+            odio amet.
+          </div>
+          <div class="link2">
+            <img class="icon3" src="icon2.svg" />
+            <div class="_0">0</div>
+          </div>
+          <div class="link3">
+            <img class="icon4" src="icon3.svg" />
+            <div class="_02">0</div>
+          </div>
+          <div class="link4">
+            <img class="icon5" src="icon4.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="border3">
+        <div class="container8">
+          <div class="_18-06-2025-13-00-przez-kaisa-1234">
+            18.06.2025, 13:00
+            <br />
+            przez: Kaisa1234
+          </div>
+          <img class="stars2" src="stars1.svg" />
+        </div>
+        <div class="container9">
+          <div class="wysokiej-jako-ci-produkt-w-najlepszej-cenie">
+            Wysokiej Jakości Produkt W Najlepszej Cenie
+          </div>
+          <div
+            class="nunc-morbi-fermentum-id-odio-vulputate-dolor-in-tellus-lectus-mollis-sed-id-nibh-laoreet-arcu-pellentesque-iaculis-proin-ultricies-vitae-rhoncus-non-in-proin-neque-purus-et-praesent-amet-cursus-egestas-adipiscing-ornare-tellus-sit-tortor-dolor-vel-morbi-sit-ipsum-ullamcorper-nunc-phasellus-ipsum-nulla-sit-pulvinar-mi-amet"
+          >
+            Nunc morbi fermentum id odio vulputate dolor in. Tellus lectus mollis
+            sed id nibh. Laoreet arcu pellentesque iaculis proin. Ultricies vitae
+            rhoncus non in proin. Neque purus et praesent amet cursus egestas
+            adipiscing ornare. Tellus sit tortor dolor vel morbi sit ipsum
+            ullamcorper. Nunc phasellus ipsum nulla sit pulvinar mi amet.
+          </div>
+          <div class="link2">
+            <img class="icon6" src="icon5.svg" />
+            <div class="_0">0</div>
+          </div>
+          <div class="link3">
+            <img class="icon7" src="icon6.svg" />
+            <div class="_02">0</div>
+          </div>
+          <div class="link4">
+            <img class="icon8" src="icon7.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="border4">
+        <div class="container10">
+          <div class="_21-09-2025-14-40-przez-tomasz-burek">
+            21.09.2025, 14:40
+            <br />
+            przez: Tomasz Burek
+          </div>
+          <img class="stars3" src="stars2.svg" />
+        </div>
+        <div class="container9">
+          <div class="wietny-produkt">Świetny produkt 👍✨</div>
+          <div
+            class="eu-nunc-pulvinar-mauris-id-vestibulum-eget-amet-eget-sed-sed-vitae-quis-porta-eu-enim-nec-nunc-dapibus-mattis-mauris-consectetur-amet-consequat-diam-enim-nisi-aliquam-cursus-ut-egestas-scelerisque-eget-pellentesque-posuere-consequat-lectus-ut-urna-volutpat-purus-faucibus-id-sapien-urna-quis-auctor-dolor-vitae-lorem-placerat-tellus-sed-tincidunt-urna"
+          >
+            Eu nunc pulvinar mauris id. Vestibulum eget amet eget sed sed vitae
+            quis porta. Eu enim nec nunc dapibus mattis mauris consectetur amet
+            consequat. Diam enim nisi aliquam cursus ut egestas scelerisque eget
+            pellentesque. Posuere consequat lectus ut urna volutpat purus faucibus
+            id sapien. Urna quis auctor dolor vitae lorem. Placerat tellus sed
+            tincidunt urna.
+          </div>
+          <div class="link5">
+            <img class="icon9" src="icon8.svg" />
+            <div class="_0">0</div>
+          </div>
+          <div class="link6">
+            <img class="icon10" src="icon9.svg" />
+            <div class="_02">0</div>
+          </div>
+          <div class="link7">
+            <img class="icon11" src="icon10.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

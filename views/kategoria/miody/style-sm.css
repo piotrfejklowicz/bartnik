@@ -1,0 +1,13 @@
+.page-product-category {
+	.product-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.sort-options__select {
+		width: 215px;
+	}
+	.toolbar__sort-options {
+		justify-content: space-between;
+		width: 100%;
+	}
+
+}

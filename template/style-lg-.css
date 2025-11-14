@@ -1,0 +1,63 @@
+/*header.page-header,*/
+/*header.page-header >*,*/
+/*header.page-header >* >* >* {*/
+/*	transition: height .17s;*/
+/*}*/
+/*header.page-header.sticky {*/
+/*	height: auto;*/
+/*}*/
+/*header.page-header.sticky >* {*/
+/*	padding: 9px 0;*/
+/*	height: auto;*/
+/*}*/
+/*header.page-header.sticky >* >* >*:not(a) {*/
+/*	!*scale: .9;*!*/
+/*	zoom: .85;*/
+/*	@media screen and (max-width: 88rem) {*/
+/*		zoom: .95;*/
+/*	}*/
+/*}*/
+/*header.page-header.sticky .logo {*/
+/*	zoom: .7;*/
+/*	padding: 3px 0;*/
+/*}*/
+/*@media screen and (max-width: 88rem) { !* 88rem = 1408px *!*/
+/*	p, li, *:not(p, li) > a {*/
+/*		zoom: calc(1.5 - (var(--zoom) / 2));*/
+/*		!*zoom: 1.2;*!*/
+/*	}*/
+/*}*/
+/*@media screen and (max-width: 77rem) { !* 77rem = 1232px *!*/
+/*	!*.our-story {*!*/
+/*	!*	zoom: 1.05;*!*/
+/*	!*}*!*/
+/*	body {*/
+/*		--mscale: 0.6;*/
+/*	}*/
+/*	.section-title-vertical {*/
+/*		display: none;*/
+/*	}*/
+/*	.contact-section .container {*/
+/*		max-width: 100%;*/
+/*		.contact-form {*/
+/*			zoom: 1.3;*/
+/*			padding: 40px;*/
+/*		}*/
+/*	}*/
+/*}*/
+/*section#leistungen {*/
+/*	margin-top: 4rem;*/
+/*}*/
+
+/*#d#d .our-story .absolute-circle.shadow.shadow3 {*/
+/*	left: auto;*/
+/*	right: 50%;*/
+/*	translate: 50%;*/
+/*}*/
+
+#d * {
+	--dev: desktop;
+}
+.hero .slides {
+	height: 100% !important;
+}
